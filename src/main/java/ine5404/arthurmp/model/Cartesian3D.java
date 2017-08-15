@@ -44,6 +44,6 @@ public class Cartesian3D {
 
     @Override
     public String toString() {
-        return "x=" + xy.getX() + ", y=" + xy.getY() + ", z=" + z;
+        return xy.toString() + ", z=" + z;
     }
 }
